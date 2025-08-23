@@ -1,30 +1,21 @@
-class Solution:
-    # Integer Input & Output
-    def printInteger(self):
-        num = int(input())
-        print(num)
-    
-    # Float Input & Output
-    def printFloat(self):
-        num = float(input())
-        print(num)
-    
-    # String Input & Output
-    def printString(self):
-        s = input()
-        print(s)
-    
-    # Character Input & Output
-    def printChar(self):
-        ch = input()
-        print(ch)
+a = 10
+b = 3.14
+c = 2 + 3j
+d = "Hello"
+e = [1, 2, 3]
+f = (1, 2, 3)
+g = {1, 2, 3}
+h = {"a": 1}
+i = True
+j = None
 
-    # Boolean Input & Output
-    def printBoolean(self):
-        b = input()
-        if b == 'True':
-            print(True)
-        elif b == 'False':
-            print(False)
-
-sol = Solution()
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
+print(type(g))
+print(type(h))
+print(type(i))
+print(type(j))
